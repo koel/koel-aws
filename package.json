@@ -1,7 +1,7 @@
 {
   "name": "koel-aws",
   "version": "1.0.0",
-  "description": "Official Lmabda package and guide to use AWS S3 with Koel",
+  "description": "Official Lambda package and guide to use AWS S3 with Koel",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
