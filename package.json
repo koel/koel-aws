@@ -1,0 +1,29 @@
+{
+  "name": "koel-aws",
+  "version": "1.0.0",
+  "description": "Official Lmabda package and guide to use AWS S3 with Koel",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": [
+    "koel",
+    "amazon",
+    "aws",
+    "s3",
+    "lambda"
+  ],
+  "author": "Phan An <me@phanan.net>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "dotenv": "^2.0.0",
+    "musicmetadata": "^2.0.4",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "aws-sdk": "^2.3.19",
+    "xo": "^0.15.1"
+  }
+}
