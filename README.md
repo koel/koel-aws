@@ -6,7 +6,10 @@ The official package and guide to use AWS S3 with [Koel](https://github.com/phan
 
 The easiest way to understand the approach is to take a look at my awesomely-drawn diagram:
 
-![Diagram](https://cdn.rawgit.com/phanan/koel-aws/master/assets/diagram.svg?v2)
+<br>
+<p align="center">
+<img src="https://cdn.rawgit.com/phanan/koel-aws/master/assets/diagram.svg?v2"/>
+</p>
 
 ## Supports, Requirements and Assumptions
 
