@@ -13,7 +13,7 @@ The easiest way to understand the approach is to take a look at my awesomely-dra
 
 ## Supports, Requirements and Assumptions
 
-As of current, only `mp3`, `ogg`, and `m4a` files are supported. Also, your Koel installation will need to be on `master` branch (the next major version will support this feature by default).
+As of current, only `mp3`, `ogg`, and `m4a` files are supported. Also, your Koel version must be v3.0.0 or later.
 
 Though I'll try to make the instructions as detailed as possible, you're expected to know your way around AWS's console, which, let's be honest here, can use some UX improvements. If you're stuck with a AWS-specific command, Google is your friend. Seriously, don't open an issue asking what Lambda is, or how to create an IAM user.
 
