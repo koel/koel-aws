@@ -92,6 +92,9 @@ function handlePut(bucket, key, cb) {
 			tags.artist = tags.artist.length ? tags.artist[0] : '';
 			tags.albumartist = tags.albumartist.length ? tags.albumartist[0] : '';
 			tags.track = tags.track.no;
+      tags.disc = tags.disc.no;
+      tags.year = tags.year.length ? tags.year[0] : '';
+      tags.genre = tags.genre.length ? tags.genre[0] : '';
 
 			if (tags.picture.length) {
 				tags.cover = {
