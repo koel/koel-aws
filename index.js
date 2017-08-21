@@ -32,9 +32,9 @@ exports.handler = function (e, ctx, cb) {
 		return;
 	}
 
-	if (record.eventName === 'ObjectCreated:Put') {
+    if (record.eventName === 'ObjectCreated:Put' || record.eventName === 'ObjectCreated:CompleteMultipartUpload') {
 		return handlePut(bucket, key, cb);
-	} else if (record.eventName === 'ObjectRemoved:Delete') {
+	} else if (record.eventName === 'ObjectRemoved:Delete' || record.eventName === 'ObjectRemoved:DeleteMarkerCreated'){
 		return handleDelete(bucket, key, cb);
 	}
 
