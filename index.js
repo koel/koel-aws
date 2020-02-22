@@ -14,7 +14,7 @@ exports.handler = function(e, ctx, cb) {
 	 * Types (extensions) that we supported - for now
 	 * @type {Array}
 	 */
-  const supportTypes = ['mp3', 'm4a', 'ogg']
+  const supportTypes = ['mp3', 'm4a', 'ogg', 'flac']
 
   const bucket = record.s3.bucket.name
   const key = decodeURIComponent(record.s3.object.key.replace(/\+/g, ' '))
