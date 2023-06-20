@@ -1,8 +1,8 @@
 # Koel-AWS
 
-The official package and guide to use AWS S3 with [Koel](https://github.com/phanan/koel).
+The official package and guide to using AWS S3 with [Koel](https://github.com/koel/koel).
 
-For instruction and installation guide, head to [Koel's official documentation](http://koel.phanan.net/docs/#/aws-s3).
+For instruction and installation guide, head to [Koel's official documentation](https://docs.koel.dev/aws-s3.html).
 
 ## License
 
